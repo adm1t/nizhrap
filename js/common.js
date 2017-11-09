@@ -46,7 +46,7 @@ function getRandomQuote(){
 
     artist = getRandomArtist(artists);
     var script = document.createElement('SCRIPT');
-    script.src = request + "&query=%23НижРэп_Цитата%20" + artist + "&access_token=" + accessToken + "&callback=callbackFunc";
+    script.src = request + "\"&query=%23НижРэп_Цитата%20" + artist + "\"&access_token=" + accessToken + "&callback=callbackFunc";
     document.getElementsByTagName("head")[0].appendChild(script);
 }
 
