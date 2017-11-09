@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> НижРэпQuiz - Тест на знание текстов Нижегородских рэп-исполнителей </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <main class="main-container">
+
+        <div class="wrapper start-screen-wrapper">
+
+            <div class="desrciption">
+
+                <p>
+                    НижРэпQuiz - это некий аналог игры "Кто хочет стать миллионером" для ценителей Нижегородского хип-хопа, в котором участнику предлагается угадать
+                    авторов десяти случайных цитат, опубликованных когда-либо в соответствующей рубрике паблика
+                    <a href="https://vk.com/nnrapchik" target="_blank">"Нижегородский Рэпчик"</a>.
+
+                </p>
+
+                <p>
+                    Идея и реализация - <a href="https://vk.com/dima_adm1t" target="_blank">adm1t</a>
+                </p>
+
+            </div>
+
+            <button class="btn btn-primary start-button" onclick="auth()">ОК, ПОГНАЛИ!</button>
+
+        </div>
+
+    </main>
+
+    <script>
+        function auth(){
+            window.location = "https://oauth.vk.com/authorize?client_id=6249113&display=page&redirect_uri=http://localhost:63342/NizhRapQuiz/quiz.html&response_type=token&v=5.69"; //&state=123456";
+        }
+    </script>
+
+</body>
+</html>

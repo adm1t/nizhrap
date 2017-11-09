@@ -1,0 +1,172 @@
+.main-container{
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ececec;
+}
+
+.wrapper{
+    max-width: 550px;
+    width: 550px;
+    border: 2px solid #007bff;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: snow;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.helps-block{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(0, 123, 255);
+    margin: -25px -25px 30px;
+}
+
+.btn.disabled{
+    cursor: default;
+}
+
+.btn.help{
+    background-color: transparent !important;
+    color: ghostwhite;
+}
+
+.btn.help > i{
+    font-size: 25px;
+}
+
+button.btn.help:disabled{
+    opacity: 0.2;
+}
+
+.quote-block{
+    background: url("../img/quote.png") no-repeat 100% 0;
+    background-size: contain;
+}
+
+.quote-block > pre{
+    white-space: pre-wrap;
+    overflow-x: hidden;
+}
+
+@media (max-width: 600px){
+    .quote-block{
+        background: none;
+        padding: 0 !important;
+    }
+}
+
+.answers-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px -5px -5px;
+    justify-content: space-between;
+}
+
+.btn{
+    margin: 5px;
+    flex: 1 1 45%;
+    cursor: pointer;
+}
+
+@media (max-width: 400px){
+    .answers-container > .btn{
+        flex-basis: 100%;
+    }
+}
+
+.progress{
+    height: 30px;
+    margin: 25px -25px -25px -25px;
+    border-radius: 0 0 3px 3px;
+    border-top: 1px solid #007bff;
+}
+
+.progress-bar{
+    letter-spacing: 1px;
+    font-size: initial;
+}
+
+.desrciption{
+    text-indent: 30px;
+    text-align: justify;
+
+}
+
+.start-button{
+    margin: 10px -25px -25px;
+    letter-spacing: 5px;
+    border-radius: 0;
+}
+
+.copyright-info{
+    margin: 5px 0 -15px auto;
+}
+
+.modal.show{
+    display: flex !important;
+}
+
+.modal-dialog{
+    margin: auto;
+    padding: 20px;
+    max-width: 660px;
+}
+
+.modal-header{
+    padding: 10px 15px;
+}
+
+.modal-title{
+    font-weight: 200;
+    letter-spacing: 2.5px;
+}
+
+.final-modal-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.final-img-container{
+    margin: auto;
+    text-align: center;
+}
+
+@media (min-width: 576px) {
+    .final-img-container {
+        flex: 0 0 35%;
+    }
+    .final-text {
+        flex: 0 0 65%;
+    }
+}
+
+@media (max-width: 575px) {
+    .medal {
+        margin: -15px auto 20px;
+    }
+    .sadly{
+        margin-bottom: 20px;
+    }
+}
+
+.final-img-container > img{
+    height: 200px;
+}
+
+.final-text{
+    align-self: center;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding: 0 15px;
+}
+
+.modal button{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
