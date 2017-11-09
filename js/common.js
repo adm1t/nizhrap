@@ -3,7 +3,7 @@ var artists = ["adm1t", "Morfo", "Варчун", "YASNO", "НичегоЛичн�
     "post haze", "Vitya GOOD", "МЁРФИ TRILLV", "САНСКРИТ", "OBSCURE", "психамир", "Кейси R.O", "COMEBAND", "Стичи", "Souse", "Сатанидзе", "#YOLOGANG", "Сорока",
     "thompson", "Матвей Ерагалин"];
 
-var accessToken = "aeafd4ccaeafd4ccaeafd4cc6eaef08e55aaeafaeafd4ccf4af71ba184e0b01f39b1342";
+//var accessToken = "aeafd4ccaeafd4ccaeafd4cc6eaef08e55aaeafaeafd4ccf4af71ba184e0b01f39b1342";
 
 var quote = { text: "", author: "", img: "" };
 var artist;
@@ -14,7 +14,7 @@ var progress = 0;
 var quotes = new Set();
 
 var hash = window.location.hash.substring(1);
-//var accessToken = hash.substr(hash.indexOf('access_token=')).split('&')[0].split('=')[1];
+var accessToken = hash.substr(hash.indexOf('access_token=')).split('&')[0].split('=')[1];
 var request = "https://api.vk.com/method/wall.search?domain=nnrapchik&v=5.68";
 
 function getRandomNumber(maxN){
