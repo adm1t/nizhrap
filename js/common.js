@@ -1,6 +1,6 @@
 var artists = ["adm1t", "Morfo", "Варчун", "YASNO", "НичегоЛичного", "Nikelle", "ИNkkи", "Наби Набат", "Ира PSP", "shaMan", "NEW FLAVA", "Крэк", "БУУ", "Сэйн", "DeGo",
     "KOSTA TKACH", "Prosche", "badCurt", "Лито", "DoppDopp", "TIPPY YOUNG", "ПАФИ", "Dos-Vi-Dos", "da_Souza", "Спарцмен", "M.A.D.Mike", "MODI", "накурикота", "Bafff",
-    "post haze", "Vitya GOOD", "МЁРФИ TRILLV", "САНСКРИТ", "OBSCURE", "психамир", "Кейси R.O", "COMEBAND", "Стичи", "Souse", "Сатанидзе", "#YOLOGANG", "Сорока",
+    "post haze", "Vitya GOOD", "МЁРФИ TRILLV", "САНСКРИТ", "OBSCURE", "психамир", "Кейси R.O", "COMEBAND", "Стичи", "Souse", "Сатанидзе", "Сорока",
     "thompson", "Матвей Ерагалин"];
 
 //var accessToken = "aeafd4ccaeafd4ccaeafd4cc6eaef08e55aaeafaeafd4ccf4af71ba184e0b01f39b1342";
