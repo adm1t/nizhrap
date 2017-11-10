@@ -119,6 +119,7 @@ button.btn.help:disabled{
 
 .modal-header{
     padding: 10px 15px;
+    background-color: ghostwhite;
 }
 
 .modal-title{
